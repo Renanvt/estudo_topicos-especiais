@@ -1,5 +1,7 @@
 [Sistemas Críticos](#sistemas-críticos)
 
+[Engenharia de Segurança](#engenharia-de-segurança)
+
 # Sistemas Críticos
 
 As falhas de softwares podem ocorrer a qualquer momento e são  relativamente comuns -> na maioria dos casos, essas falhas causam inconveniências, mas não danos sérios.
@@ -128,5 +130,104 @@ Para desenvolver um **software confiável**, você precisa garantir que:
 4. O sistema implantado e seu software de suporte sejam configurados corretamente para seu ambiente operacional. 
 
 5. Incluir mecanismos de recuperação que tornem possível a restauração do serviço normal do sistema o mais rapidamente possível. 
+
+# [👆 TÓPICOS](#tópicos)
+
+# Engenharia de Segurança
+
+Será que existe algum sistema de software que seja **seguro**? 
+
+Muitos softwares que usamos enfrentam **ameaças** o tempo todo, desde aplicativos para internet até sistemas complexos. 
+
+**Engenheiros de software** devem conhecer essas ameaças para que consigam ter a capacidade de proteger os sistemas que desenvolvem.
+
+As **ameaças** existem há mais de uma década e estão se multiplicando com: 
+
+- Crescimento da Web
+
+- Ubiquidade dos aplicativos móveis 
+
+- Uso da nuvem. 
+
+O uso dessas tecnologias vem gerando novas preocupações sobre a segurança com relação a:
+
+- Privacidade dos usuários
+
+- Perdas ou roubo de informações pessoais e empresariais.
+
+- **Segurança**: deve ser uma preocupação de qualquer engenheiro de software que tenha recursos dos clientes para proteger. 
+
+- A **segurança de software** fornece os mecanismos que permitem a um sistema de software proteger seus ativos contra ataques. 
+
+- **Ativos**: são *recursos de sistema* que tem valor para um ou mais envolvidos. Os ativos incluem: informações de banco de dados, arquivos, programas, espaço de armazenamento no disco rígido, memória de sistema ou até mesmo capacidade de processador. 
+
+- **Segurança**: considerada um dos **aspectos importantes** da garantia da **qualidade** do software. 
+
+Quanto mais relatos de erros: mais difícil fica considerar que o sistema tem qualidade ou que seja possível aumentar a qualidade. 
+
+**Fica difícil aumentar a segurança com relatos de vulnerabilidade no sistema**. 
+
+- **Segurança**: considerar desde o início do processo de desenvolvimento do software. Deve ser incorporada nas fases iniciais do projeto, na implementação e verificada durante os testes e na implantação.
+
+### Análise dos Requisitos de Segurança
+         	
+- Deve ser determinada junto com o cliente os **requisitos de segurança**:  identificar os ativos que devem ser protegidos, e, em caso de perda desses ativos, qual o custo associado a cada um. 
+
+- O **valor da perda de um ativo** é conhecido como sua **exposição**. 
+
+Durante a construção do software é importante: 
+
+Pensar em antecipar as **condições** ou **ameaças** que possam vir a causar uma perda que possam danificar o sistema ou torná-lo inacessível aos usuários. 
+
+Esse processo de antecipação é chamado de **Análise de Ameaça**. 
+
+Depois de identificados as ameaças e vulnerabilidades do sistema, é necessário que sejam criados **controles para evitar estes ataques** e **mitigar seus danos** e possíveis **perdas**.
+
+Para a **Análise da Engenharia de Segurança** temos algumas tarefas que devem ser pensadas. 
+
+1. **Levantamento de Requisitos de Segurança**:  utiliza as técnicas gerais de levantamento de requisitos e são aplicadas ao levantamento de requisitos de segurança. 
+
+2. **Modelagem de Segurança**: é onde é feita uma descrição formal da política de segurança do sistema baseado nas informações do levantamento de requisitos de segurança. A política de segurança descreve os principais requisitos de segurança e contém regras que descrevem como a segurança será imposta.
+
+3. **Projeto de Medidas**: tarefa onde as métricas e medidas de segurança precisam ser encontradas na avaliação das propriedades:
+ 
+- *Confiabilidade*: funcionar sob condições hostis.
+
+- *Credibilidade*: o sistema não se comporta de forma mal-intencionada.
+
+- *Capacidade de sobrevivência*: continua a funcionar mesmo estando comprometido.
+
+4. **Verificações de Exatidão**: tarefa que precisa ocorrer ao longo do ciclo de desenvolvimento do software.  
+
+- No início do processo de desenvolvimento devemos determinar qual a **exposição de ativos envolvidos** nos ataques contra vulnerabilidade do sistema. 
+
+- Muitas das verificações de segurança devem ser incluídas nas tarefas da Engenharia de Software convencional como nas auditorias, inspeções e atividades de teste.
+
+### Análise de Risco de Segurança
+ 
+Fazem parte do planejamento do projeto as tarefas de **identificar** e **gerenciar riscos de segurança**. 
+
+- **Modelagem de ameaças**:  é um método de análise de segurança usado para identificar ameaças com o potencial mais alto de causar danos a um sistema baseado em software. 
+
+- A modelagem de ameaças é realizada nas fases iniciais  do projeto, usando as informações do levantamento de requisitos e os modelos de análise. 
+
+Para criar um **modelo de ameaças** é necessário:
+
+![ModeloDeAmeacas](img/ModeloDeAmeacas.jpeg)
+
+A **preocupação da Engenharia de Segurança** de software é com:
+
+- O desenvolvimento de software deve **proteger contra ameaças** os ativos que gerencia. 
+
+- **Gestão de riscos à segurança**:  se preocupar com  a avaliação do impacto de possíveis ameaças e com a produção de requisitos de segurança para minimizar perdas críticas.
+
+- O **projeto** voltado **a segurança** deve envolver a criação de uma arquitetura de sistemas que minimiza a introdução de vulnerabilidades conhecidas. 
+
+Os **engenheiros de software** devem utilizar técnicas para evitar, repelir e recuperar de ataques, como uma maneira de mitigar os efeitos de perdas .
+
+# [👆 TÓPICOS](#tópicos)
+
+
+
 
 
