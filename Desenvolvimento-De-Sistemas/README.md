@@ -2,6 +2,8 @@
 
 [Engenharia de Segurança](#engenharia-de-segurança)
 
+[Reengenharia e Manutenção de Software](#reengenharia-e-manutenção-de-software)
+
 # Sistemas Críticos
 
 As falhas de softwares podem ocorrer a qualquer momento e são  relativamente comuns -> na maioria dos casos, essas falhas causam inconveniências, mas não danos sérios.
@@ -227,6 +229,151 @@ Os **engenheiros de software** devem utilizar técnicas para evitar, repelir e r
 
 # [👆 TÓPICOS](#tópicos)
 
+
+# Reengenharia e Manutenção de Software
+
+Com tantas correções de bugs, solicitações de adaptações e melhorias, que devemos pensar em enfrentar o desafio da **manutenção do software**.
+
+Outro problema é a **mobilidade dos profissionais**:  
+
+• Os  desenvolvedores do código original talvez não esteja mais na empresa.
+• Ou outros desenvolvedores tenham modificado o sistema e já se foram.
+• Ou pode não ter restado ninguém na empresa que tenha conhecimento direto do sistema legado. 
+
+
+A **evolução do sistema** envolve a compreensão e o conhecimento do programa que tem que ser mudado, para a implementação de novas mudanças. 
+
+Mas muitos sistemas legados são velhos, difíceis de serem mudados.
+
+Ao longo do tempo, a estrutura inicialmente projetada do sistema pode:
+    Não ser mais suportada ou pode ter sido danificada por várias mudanças durante o seu ciclo de vida.
+
+Para que os **sistemas legados** sejam mais fáceis para serem mantidos  é preciso: **melhorar** a sua **estrutura** e sua **inteligibilidade** aplicando a **Reengenharia**.
+
+A **Reengenharia** pode envolver: 
+
+- A redocumentação de sistema
+
+- A refatoração da arquitetura de sistema
+
+- A mudança de linguagem de programação para uma linguagem moderna (modificações e atualizações da estrutura e dos dados de sistema)
+
+- A funcionalidade de software não é alterada (evitar grandes mudanças na arquitetura de sistema).
+
+Benefícios que são considerados importantes na Reengenharia:
+
+![Reengenharia](img/Reengenharia.PNG)
+
+## Modelo geral de processo de Reengenharia:  
+
+Entrada para o processo é um programa legado (programa original)
+
+Saída é uma versão melhorada e reestruturada do mesmo programa (dados reconstruídos). 
+
+![ProcessoReengenharia](img/ProcessoReengenharia.PNG)
+
+O **processo de Reengenharia** tem as seguintes atividades:
+ 
+1. **Tradução de código-fonte**: onde é utilizada uma ferramenta de tradução. O programa é convertido para uma versão mais moderna. 
+
+2. **Engenharia Reversa**: onde o programa é analisado para extrair informações sobre ele. Esse processo pode ser automatizado.
+
+3. **Melhoria de estrutura de programa**: onde a estrutura de controle do programa é analisada e pode ser modificada caso seja necessário. 
+
+4. **Modularização de programa**: atividade onde as partes relacionadas do programa são agrupadas, se tiver redundância, poderá ser removida. 
+
+5. **Reengenharia de dados**: atividade onde os dados processados pelo programa são alterados para que reflitam as mudanças do programa. 
+
+Dependendo da extensão do trabalho -> custos da reengenharia podem aumentar. 
+
+Espectro de possíveis abordagens para a **Reengenharia**: 
+
+custos aumentam da esquerda para a direita
+
+![Custos](img/Custos.PNG)
+
+Atividades de Reengenharia de Software
+
+![AtividadesReengenharia](img/AtividadesReengenharia.PNG)
+
+## Manutenção de Software
+
+O **software continuará** evoluindo com o passar do tempo, independentemente do domínio de aplicação, tamanho ou da sua complexidade. 
+
+**Processo de evolução**: dirigido pelas mudanças que ocorrem no software quando:
+
+- Ocorrem alterações
+  
+- Erros são corrigidos
+  
+- Há adaptação a um novo ambiente ou tecnologia
+  
+- Solicitações de novas funcionalidades pelo cliente
+  
+- Novas regras de negócio exigidas pelo governo 
+  
+- Quando o sistema passa por um processo de **Reengenharia**.
+
+- A **manutenção** começa quase imediatamente. 
+
+- O software é liberado para os usuários finais: os relatos de bugs começam a chegar em alguns dias. 
+
+- Em algumas semanas: uma classe de usuários indica que o software deve ser mudado para se adaptar às necessidades especiais de seus ambientes.
+
+- Em alguns meses:  outro grupo corporativo, ainda não interessado no software quando foi lançado, agora reconhece que pode lhes trazer alguns benefícios. 
+
+**Eles precisarão de algumas melhorias para fazer o software funcionar em seu mundo** 
+
+
+### Razões para a Manutenção de Sistema:
+
+Muitos softwares que usamos hoje e dependemos, possuem em média de 10 a 15 anos. Esses sistemas, quando foram desenvolvidos, usaram na época as melhores técnicas de projeto e codificação conhecidas. 
+
+A arquitetura geral do sistema não teve uma grande atenção. Como resultado:
+Estruturas mal projetadas, mal codificadas, de lógica pobre e mal documentadas e que exigem muitos chamados para corrigir falhas e inconsistência a fim de mantê-los rodando. 
+
+Mobilidade dos profissionais
+
+### Manutenção de software
+
+Processo geral de mudança em um sistema depois que ele é liberado para uso. 
+
+Se aplica ao software customizado em que grupos de desenvolvimento separados estão envolvidos antes e depois da liberação. 
+
+Alterações feitas no software podem ser: 
+Simples mudanças para correção de erros de codificação,  mudanças mais extensas para correção de erros de projeto, ou melhorias significativas. 
+
+- Existem três diferentes tipos de Manutenção de Software:
+
+![ManutencaoSoftware](img/Manuten%C3%A7%C3%A3oSoftware.PNG)
+
+Tipos de Manutenção 
+
+![TiposDeManutenção](img/TiposManuten%C3%A7%C3%A3o.PNG)
+
+**Manutenibilidade**:  é o software “manutenível” que apresenta uma modularidade eficaz, faz uso de padrões de projeto, construído usando padrões e convenções de codificação que sejam bem definidos e que levam a um código-fonte auto documentado e inteligível. 
+
+![Manutenibilidade](img/Manutenibilidade.PNG)
+
+É mais **caro adicionar funcionalidade depois** que um software está em uso do que implementar a mesma funcionalidade durante o seu desenvolvimento.
+A razões para isso são:
+ 
+1. **Estabilidade da equipe**: após o sistema ter sido liberado para uso do cliente, muitas vezes a equipe de desenvolvimento é desmobilizada e remanejada para novos projetos. 
+   
+2. **Más práticas de desenvolvimento**: em muitos casos, o contrato para a manutenção de um sistema é separado do contrato de desenvolvimento do sistema.
+
+3. **Qualificações de pessoal**: em geral, a equipe de manutenção é inexperiente e não domina a regra de negócio da aplicação. 
+   
+4. **Idade do programa e estrutura**: muitas vezes, o sistema sobre muitas alterações e com isso a sua estrutura tende a degradar e envelhecer, tornando-se cada vez mais difíceis de serem entendidos e alterados. 
+
+# [👆 TÓPICOS](#tópicos)
+
+
+
+
+
+
+ 
 
 
 
