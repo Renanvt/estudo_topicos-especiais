@@ -20,18 +20,18 @@ Na literatura podemos encontrar várias definições para reuso. Vamos conhecer 
 
 **Evolução histórica**
 
-![EvolucaoHistóricaReutilização](img/EvolucaoHistoricaReutilizacao.PNG)
+![Imgur](https://i.imgur.com/c4p762E.png)
 
 ![Imgur](https://i.imgur.com/WbIpWYK.png)
 
 ## Vantagens e Desvantagens da Reutilização de Software
 A mais óbvia: redução dos custos globais de desenvolvimento
 
-![EvolucaoHistóricaReutilização](img/EvolucaoHistoricaReutilizacao2.PNG)
+![Imgur](https://i.imgur.com/0mTF5oH.png)
 
 Dificuldades da Reutilização 
 
-![VantagensEDesvantagensReutilizaçao](img/VantagensEDesvantagensReuti.PNG)
+![Imgur](https://i.imgur.com/mCiGF4L.png)
 
 Para uma efetiva reutilização, é importante que se atenda a alguns requisitos:
 
@@ -87,7 +87,7 @@ A evolução da notação UML inseriu a representação de interfaces requeridas
 
 - Por outro lado, **Pessoa, Fatura, Item Disponível** são interfaces requeridas.
 
-![NotacaoGrafica](img/NotacaoGrafica.PNG)
+![Imgur](https://i.imgur.com/bzuqOxc.png)
 
 **COTS (Commercial Off-the-Shelf)**
 
@@ -172,7 +172,7 @@ Os padrões podem ter finalidade de criação, estrutural ou comportamental.
 
 A catalogação constitui-se em uma das primeiras iniciativas e foi estruturada de acordo com a finalidade e o escopo de cada um dos padrões.
 
-![CatalogoDeGof](img/CatalogoDeGof.PNG)
+[Imgur](https://i.imgur.com/fxbUtrz.png)
 
 **Uma vez que você tem acesso a um conjunto de diversos padrões, vem a pergunta: como faço para usar  um padrão?** 
 
