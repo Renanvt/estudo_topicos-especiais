@@ -48,6 +48,8 @@ Para uma efetiva reutilização, é importante que se atenda a alguns requisitos
 
 3. Existência de documentação que ajude a compreendê-los e adotá-los. 
 
-![teste](./img/teste.PNG)
+# teste
+
+![teste](img/teste.PNG)
 
 ![teste2](./img/teste2.PNG)
