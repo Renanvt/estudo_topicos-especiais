@@ -46,7 +46,7 @@ Esses sistemas mais amplos são chamados **Sistemas Sociotécnicos**. Eles inclu
 
 Sistemas Sociotécnicos são tão complexos que é praticamente impossível entendê-los como um todo.  Para entender, o melhor é percebê-los como camadas:
 
-![SistemasSociotécnicos](img/SistemasSociotécnicos.jpeg)
+![SistemasSociotécnicos](img/SistemasSociotecnicos.jpeg)
 
 A interação ocorre entre as camadas vizinhas, onde cada camada superior oculta os detalhes da camada inferior. 
 
