@@ -320,7 +320,7 @@ Deve haver uma comunicação entre as ferramentas de gerenciamento de versões e
 
 - Também é usada a descrição de configuração que identifica uma baseline.
 
-![construção-do-sistema](img/constru%C3%A7%C3%A3o-do-sistema.PNG)
+![construção-do-sistema](img/construcao-do-sistema.PNG)
 
 # [👆 TÓPICOS](#tópicos)
 
