@@ -50,4 +50,4 @@ Para uma efetiva reutilização, é importante que se atenda a alguns requisitos
 
 ![teste](img/teste.PNG)
 
-![teste2](img/teste2.PNG)
+![teste2](./img/teste2.PNG)
