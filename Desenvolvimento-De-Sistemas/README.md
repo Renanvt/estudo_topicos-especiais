@@ -345,11 +345,11 @@ Simples mudanças para correção de erros de codificação,  mudanças mais ext
 
 - Existem três diferentes tipos de Manutenção de Software:
 
-![ManutencaoSoftware](img/Manuten%C3%A7%C3%A3oSoftware.PNG)
+![ManutencaoSoftware](img/ManutencaoSoftware.PNG)
 
 Tipos de Manutenção 
 
-![TiposDeManutenção](img/TiposManuten%C3%A7%C3%A3o.PNG)
+![TiposDeManutenção](img/TiposManutencao.PNG)
 
 **Manutenibilidade**:  é o software “manutenível” que apresenta uma modularidade eficaz, faz uso de padrões de projeto, construído usando padrões e convenções de codificação que sejam bem definidos e que levam a um código-fonte auto documentado e inteligível. 
 
