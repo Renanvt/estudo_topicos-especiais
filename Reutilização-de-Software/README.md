@@ -22,6 +22,8 @@ Na literatura podemos encontrar várias definições para reuso. Vamos conhecer 
 
 ![EvolucaoHistóricaReutilização](img/EvolucaoHistoricaReutilizacao.PNG)
 
+[Imgur](https://i.imgur.com/WbIpWYK.png)
+
 ## Vantagens e Desvantagens da Reutilização de Software
 A mais óbvia: redução dos custos globais de desenvolvimento
 
