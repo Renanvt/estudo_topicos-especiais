@@ -29,6 +29,7 @@ Na literatura podemos encontrar várias definições para reuso. Vamos conhecer 
 
 ![Reutlização](img/Reutilizacao-De-Software.PNG)
 
+[Imgur](https://i.imgur.com/WbIpWYK.png)
 
 # Vantagens e Desvantagens da Reutlização de Software
 
