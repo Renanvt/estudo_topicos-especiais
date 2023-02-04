@@ -1,4 +1,4 @@
-# [👈 ](README.md)
+# [👈 ](./README.md)
 
 [ Sistemas Distribuídos ](#sistemas-distribuídos)
 
