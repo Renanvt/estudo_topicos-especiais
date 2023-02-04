@@ -10,6 +10,8 @@
 
 [ A evolução da Reutilização de Software ](#a-evolução-da-reutilização-de-software)
 
+
+
 # Reutilização de Software
 
 Os desenvolvedores de software tem buscado por soluções que datam desde quando surgiu o termo Engenharia de Software.
@@ -412,6 +414,18 @@ Ambiente do iPhone onde os atores são a empresa Apple, os usuários, os desenvo
 - **Ativos de software**: em geral, também podem ser considerados ativos reutilizáveis. 
 
 - Estes **ativos reutilizáveis** podem ser criados **dentro** da organização ou serem trazidos de **fora** da organização, ou mesmo do ECOS.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
