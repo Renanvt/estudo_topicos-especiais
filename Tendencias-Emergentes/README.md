@@ -1,4 +1,4 @@
-# [👈 ](./README.md)
+# [👈 ](https://github.com/Renanvt/topicos-especiais)
 
 [ Sistemas Distribuídos ](#sistemas-distribuídos)
 
