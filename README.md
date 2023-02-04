@@ -1,11 +1,11 @@
 # Tópicos
 
-[Como Entregar Sofware](Como-Entregar-Software/README.md)
+[Como Entregar Sofware](src/Como-Entregar-Software/README.md)
 
-[Desenvolvimento de Sistemas](Desenvolvimento-De-Sistemas/README.md)
+[Desenvolvimento de Sistemas](src/Desenvolvimento-De-Sistemas/README.md)
 
-[Reutilização de Software](Reutilização-de-Software/README.md)
+[Reutilização de Software](src/Reutilização-de-Software/README.md)
 
-[ Refatoracao para Padrões](Refatoracao-Para-Padroes/README.MD)
+[ Refatoracao para Padrões](src/Refatoracao-Para-Padroes/README.MD)
 
-[ Tendencias Emergentes](Tendencias-Emergentes/README.md)
+[ Tendencias Emergentes](src/Tendencias-Emergentes/README.md)
