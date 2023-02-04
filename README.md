@@ -1,3 +1,5 @@
+![Imagem de computadores](img/retro_computer_aesthetic-wallpaper-320x480.jpg)
+
 # Tópicos
 
 [Como Entregar Sofware](src/Como-Entregar-Software/README.md)
